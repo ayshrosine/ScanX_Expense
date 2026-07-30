@@ -8,7 +8,7 @@ def get_category_from_ollama(description_text:str) -> str:
     # 2. Execute Ollama subprocess
     # Using Llama3 is recommended for better instruction following and JSON formatting.
     process = subprocess.Popen(
-        ["ollama", "run", "gemma3:4b"],
+        ["ollama", "run", "phi3:3.8b"],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
