@@ -36,7 +36,7 @@ def get_category_from_ollama(description_text:str) -> str:
 
 
 
-#description_text = "Paying to electricity board"
-#if __name__ == "__main__":
-#    category_list = get_category_from_ollama(description_text)
-#    print (category_list)
+description_text = "Paying to electricity board"
+if __name__ == "__main__":
+   category_list = get_category_from_ollama(description_text)
+   print (category_list)
