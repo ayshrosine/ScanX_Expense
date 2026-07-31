@@ -37,4 +37,5 @@ def image_cleaning(input_folder, output_folder):
 
 if __name__ == "__main__":
       image_cleaning(input_folder, output_folder)
+      
 
